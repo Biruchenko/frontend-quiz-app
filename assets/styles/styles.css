@@ -350,6 +350,9 @@ body.dark-theme .achievement__point-text {
 .btn-option.correct .btn-option__icon-check--correct {
   display: inline-block;
 }
+.btn-option.correct.selected {
+  border-color: var(--color-green-500);
+}
 .btn-option.wrong {
   border-color: var(--color-red-500);
 }
