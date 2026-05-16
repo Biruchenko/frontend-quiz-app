@@ -1,0 +1,44 @@
+:root {
+  /* === Colors === */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey-500: #626c7f;
+  --color-grey-50: #f4f6fa;
+  --color-blue-950: #2d3949;
+  --color-blue-900: #313e51;
+  --color-blue-850: #3b4d66;
+  --color-blue-500: #306aff;
+  --color-blue-300: #abc1e1;
+  --color-blue-100: #edf1f9;
+  --color-blue-50: #ebf0ff;
+  --color-green-500: #2fd887;
+  --color-green-100: #e0fdef;
+  --color-purple-600: #a729f5;
+  --color-purple-100: #f6e7ff;
+  --color-orange-400: #ff7e35;
+  --color-orange-50: #fff5ed;
+  --color-red-500: #ee5454;
+  --linear-gradient-color: linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), var(--color-purple-600);
+  /* box-shadow */
+  --box-shadow-light: 0 16px 40px 0 rgba(143, 160, 193, 0.14);
+  --box-shadow-dark: 0 16px 40px 0 rgba(49, 62, 81, 0.14);
+  /* === Typography === */
+  /* font-family*/
+  --font-main: "Rubik", sans-serif;
+  /*font-weight*/
+  --fw-medium: 500;
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-italic: italic;
+  /*font-size*/
+  --fs-144-88: clamp(5.5rem, 2.16rem + 14.25vw, 9rem);
+  --fs-64-40: clamp(2.5rem, 1.069rem + 6.11vw, 4rem);
+  --fs-36-20: clamp(1.25rem, 0.296rem + 4.07vw, 2.25rem);
+  --fs-28-18: clamp(1.125rem, 0.529rem + 2.54vw, 1.75rem);
+  --fs-24-14: clamp(0.875rem, 0.279rem + 2.54vw, 1.5rem);
+  --fs-20-14: clamp(0.875rem, 0.517rem + 1.53vw, 1.25rem);
+  /*line-height*/
+  --lh-normal: 1;
+  --lh-medium: 1.2;
+  --lh-big: 1.5;
+}

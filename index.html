@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+		<title>Frontend Mentor | Frontend quiz app</title>
+		<link rel="stylesheet" href="./assets/styles/iconfont.css">
+		<link rel="stylesheet" href="./assets/styles/styles.css">
+		<script src="./assets/scripts/script.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container">
+					<div class="header__logo logo">
+
+					</div>
+					<h1 class="sr-only">Frontend quiz app</h1>
+					<button type="button" class="header__theme-btn switch-theme-btn" aria-label="Switch to dark theme" aria-pressed="false">
+						<span class="switch-theme-btn__icon icon-sun" aria-hidden="true">
+						</span>
+						<span class="switch-theme-btn__toggler" aria-hidden="true"></span>
+						<span class="switch-theme-btn__icon icon-moon " aria-hidden="true">
+						</span>
+					</button>
+				</div>
+			</header>
+			<main>
+				<section class="main section">
+					<div class="main__container">
+						<div class="main__menu menu">
+							<div class="menu__header">
+								<div class="menu__welcome">
+									<div class="menu__titles">
+										<h2 class="menu__title title-big">
+											<span>Welcome to the</span><br>Frontend Quiz!
+										</h2>
+									</div>
+									<div class="menu__text">
+										<p>Pick a subject to get started.</p>
+									</div>
+								</div>
+							</div>
+							<div class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<button type="button" class="menu__option btn-option btn-option--subject">
+											<span class="btn-option__icon btn-option__icon--img icon icon--img icon--img-html" aria-hidden="true">
+											</span>
+											<span class="btn-option__text">HTML</span>
+										</button>
+									</li>
+									<li class="menu__item">
+										<button type="button" class="menu__option btn-option btn-option--subject">
+											<span class="btn-option__icon btn-option__icon--img icon icon--img icon--img-css" aria-hidden="true">
+											</span>
+											<span class="btn-option__text">CSS</span>
+										</button>
+									</li>
+									<li class="menu__item">
+										<button type="button" class="menu__option btn-option btn-option--subject">
+											<span class="btn-option__icon btn-option__icon--img icon icon--img icon--img-js" aria-hidden="true">
+											</span>
+											<span class="btn-option__text">JavaScript</span>
+										</button>
+									</li>
+									<li class="menu__item">
+										<button type="button" class="menu__option btn-option btn-option--subject">
+											<span class="btn-option__icon btn-option__icon--img icon icon--img icon--img-access" aria-hidden="true">
+											</span>
+											<span class="btn-option__text">Accessibility</span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="quiz section hidden">
+					<div class="quiz__container">
+						<div class="quiz__menu menu">
+							<div class="menu__header">
+								<div class="menu__content">
+									<div class="menu__titles">
+										<div class="menu__subtitle">
+											Question <span class="menu__subtitle-question-number question-number">6</span> of <span class="menu__subtitle-question-quantity question-quantity">10</span>
+										</div>
+										<h2 class="menu__title title-small">
+											<span>Welcome to the</span><br>Frontend Quiz!
+										</h2>
+									</div>
+									<div class="menu__progress-bar progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+										<span style="width: 5%"></span>
+									</div>
+								</div>
+							</div>
+							<div class="menu__body">
+								<div class="menu__inner">
+									<ul class="menu__list">
+										<li class="menu__item">
+											<button type="button" class="menu__option btn-option btn-option--answer">
+												<span class="btn-option__icon btn-option__icon--symbol icon icon--symbol">
+													A
+												</span>
+												<span class="btn-option__text">Some text</span>
+												<span class="btn-option__icon-check btn-option__icon-check--correct" role="img" aria-hidden="true" aria-label="Correct answer"></span>
+												<span class="btn-option__icon-check btn-option__icon-check--wrong" role="img" aria-hidden="true" aria-label="Incorrect answer"></span>
+											</button>
+										</li>
+										<li class="menu__item">
+											<button type="button" class="menu__option btn-option btn-option--answer">
+												<span class="btn-option__icon btn-option__icon--symbol icon icon--symbol">
+													B
+												</span>
+												<span class="btn-option__text">Some text</span>
+												<span class="btn-option__icon-check btn-option__icon-check--correct" role="img" aria-hidden="true" aria-label="Correct answer"></span>
+												<span class="btn-option__icon-check btn-option__icon-check--wrong" role="img" aria-hidden="true" aria-label="Incorrect answer"></span>
+											</button>
+										</li>
+										<li class="menu__item">
+											<button type="button" class="menu__option btn-option btn-option--answer">
+												<span class="btn-option__icon btn-option__icon--symbol icon icon--symbol">
+													c
+												</span>
+												<span class="btn-option__text">Some text</span>
+												<span class="btn-option__icon-check btn-option__icon-check--correct" role="img" aria-hidden="true" aria-label="Correct answer"></span>
+												<span class="btn-option__icon-check btn-option__icon-check--wrong" role="img" aria-hidden="true" aria-label="Incorrect answer"></span>
+											</button>
+										</li>
+										<li class="menu__item">
+											<button type="button" class="menu__option btn-option btn-option--answer">
+												<span class="btn-option__icon btn-option__icon--symbol icon icon--symbol">
+													D
+												</span>
+												<span class="btn-option__text">Some text</span>
+												<span class="btn-option__icon-check btn-option__icon-check--correct" role="img" aria-hidden="true" aria-label="Correct answer"></span>
+												<span class="btn-option__icon-check btn-option__icon-check--wrong" role="img" aria-hidden="true" aria-label="Incorrect answer"></span>
+											</button>
+										</li>
+									</ul>
+									<button type="button" class="menu__btn-submit btn-submit" id="btn-submit"><span>Submit Answer</span></button>
+									<button type="button" class="menu__btn-next btn-submit hidden" id="btn-next"><span>Next Question</span></button>
+									<div class="menu__error hidden">
+										<span class="menu__error-icon icon-error" aria-hidden="true">
+										</span>
+										<span class="menu__error-text">
+											Please select an answer
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="score section hidden">
+					<div class="score__container">
+						<div class="score__menu menu">
+							<div class="menu__header">
+								<h2 class="menu__title title-big">
+									<span>Quiz completed</span><br>You scored...
+								</h2>
+							</div>
+							<div class="menu__body">
+								<div class="menu__achievement achievement">
+									<div class="achievement__body">
+										<div class="achievement__subject logo">
+											<span class="logo__icon icon icon--img icon--img-html" aria-hidden="true"></span>
+											<span class="logo__text">HTML</span>
+										</div>
+										<div class="achievement__points">
+											<div class="achievement__point-number">8</div>
+											<div class="achievement__point-text">out of <span class="achievement__point-text-total">10</span></div>
+										</div>
+									</div>
+									<button type="button" class="achievement__play-btn btn-submit" id="btn-play-again"><span>Play Again</span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+			</footer>
+		</div>
+	</body>
+</html>
